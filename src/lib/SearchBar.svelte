@@ -20,7 +20,7 @@
 	<input
 		type="text"
 		placeholder="Search"
-		class="w-full py-3 pl-12 pr-4 text-slate-500 border rounded-md outline-none bg-gray-50 focus:text-slate-900 focus:bg-white focus:border-slate-500"
+		class="w-full py-3 pl-12 pr-4 text-slate-500 border border-gray-200 rounded-sm outline-hidden bg-gray-50 focus:text-slate-900 focus:bg-white focus:border-slate-500"
 		bind:value={search}
 	/>
 </div>

@@ -10,7 +10,8 @@
 	}
 </script>
 
-<div class="hover:bg-sky-700 hover:bg-opacity-20 rounded-md px-2 hover:shadow-md">
+<div class="hover:bg-sky-700/20 rounded-md px-2 hover:shadow-md">
+	<!-- svelte-ignore a11y_no_static_element_interactions -->
 	<div
 		class="hover:font-semibold cursor-pointer {$node_selected === wf_node ? 'font-semibold' : ''}"
 		on:click={handleClick}

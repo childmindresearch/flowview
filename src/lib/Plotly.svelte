@@ -57,7 +57,7 @@
 	<script src="https://cdn.plot.ly/plotly-2.17.0.min.js" on:load={init}></script>
 </svelte:head>
 {#if $PlotlyLib}
-	<div {id} use:plotlyAction={{ data, layout, config, reloadPlot }} {...$$restProps} />
+	<div {id} use:plotlyAction={{ data, layout, config, reloadPlot }} {...$$restProps}></div>
 {:else}
 	<slot>Loading Plotly</slot>
 {/if}
